@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/muli" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="introduce.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <title>TocoToco - Giới Thiệu  </title>
+</head>
+<body>
+    <div class="frame">
+           <header>
+           <div class="mobile">
+            <div class="header-mobile">
+                <div class="mb-logo"><img src="../images/Logo-ngang-01.png" height="30px" alt=""></div>
+                <i id="mb-toggle" class="fa-solid fa-bars"></i>
+            </div>
+            <div class="menu-mobile">
+                <div class="mb-logo2"><img src="../images/Icon-Tocotoco.png" height="40px" alt=""></div>
+                <div class="mb-menu">
+                    <ul class="mb-list">
+                        <li class="mb-item"><a href="../index.html" id="mb-link">Trang chủ</a></li>
+                        <li class="mb-item"><a href="../introduce/introduce.html" id="mb-link">Giới thiệu</a></li>
+                        <li class="mb-item"><a href="../product/product.html" target="_blank" id="mb-link">Sản phẩm</a></li>
+                        <li class="mb-item"><a href="../news/news.html" id="mb-link">Tin Tức</a></li>
+                        <li class="mb-item"><a href="" id="mb-link">Cửa hàng</a></li>
+                        <li class="mb-item"><a target="_blank" href="../recruitment/recruit.html" id="mb-link">Tuyển dụng</a></li>
+                        <li class="mb-item"><a href="" id="mb-link">Nhượng quyền</a></li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+           <header>
+            <div id="header-pc">
+                <div  class="heading-menu">
+                    <a href="#" class="logo">
+                        <img src="../images/Logo-ngang-01.png" alt="">
+                    </a>
+                    <div class="menu">
+                        <div class="menu-btn">
+                            <i class="bar fa-solid fa-bars"></i>
+                        </div>
+                        <ul>
+                            <li class="menu-item"><a href="../index.html">Trang chủ</a></li>
+                            <li class="menu-item"><a href="../introduce/introduce.html">Giới thiệu <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu-item"><a href="../introduce/introduce.html">Lịch sử và sứ mệnh</a></li>
+                                    <li class="sub-menu-item"><a href="../introduce/introduce.html">Thành tựu đạt được</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="../product/product.html" target="_blank">Sản phẩm <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu-item"><a href="../product/product.html" target="_blank">Tocotoco trà sữa</a></li>
+                                    <li class="sub-menu-item"><a href="../product/product.html" target="_blank">Tocotoco kem</a></li>
+                                    <li class="sub-menu-item"><a href="../product/product.html" target="_blank">Instant Milk Tea</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="../news/news.html">Tin tức <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu-item"><a href="../news/news.html">Câu chuyện thương hiệu</a></li>
+                                    <li class="sub-menu-item"><a href="../news/news.html">Tin tức khuyến mại</a></li>
+                                    <li class="sub-menu-item"><a href="../news/news.html">Sự kiện</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#">Cửa hàng <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu-item"><a href="#">Cửa hàng tocotoco tea</a></li>
+                                    <li class="sub-menu-item"><a href="#">Cửa hàng tocotoco icecraem & coffee</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="../recruitment/recruit.html">Tuyển dụng</a></li>
+                            <li class="menu-item"><a href="#">Nhượng quyền</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-right">
+                    <div class="social-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </header>
+           </header>
+            <div class="silder"></div>
+          
+           <script>
+              $(document).ready(function() {
+                $(window).scroll(function(){
+                    if($(this).scrollTop()){
+                        $('header').addClass('sticky')
+                    }
+                    else{
+                        $('header').removeClass('sticky')
+                    }
+                });
+              });
+            </script>
+            <script>
+                $(document).ready(function() {
+                    $('#mb-toggle').click(function(){
+                        $('.menu-mobile').slideToggle();
+                    });
+                });
+            </script>
+        </div>
+        <div class="title">
+                <div class="text-1">ToCoToCo</div>
+                <div class="text-2">GIỚI THIỆU</div>
+                <div class="logo-ngang"><img src="../images/Logo-ngang-02.png" alt=""></div>
+            </div>
+        <div class="container">
+            <div class="content-1">
+                <div class="img-1"></div>
+                <div class="info">
+                    <div class="info-title">Nguồn Gốc</div>
+                    <div class="logo-ngang">
+                        <img src="../images/Logo-ngang-02.png" alt="">
+                    </div>
+                    <div class="info-text">
+                    Luôn tâm huyết với việc khai thác nguồn nông sản Việt Nam để tạo ra những ly thức uống tươi ngon, 
+                    an toàn và giàu giá trị dinh dưỡng, ToCoToCo mở cửa hàng đầu tiên vào năm 2013, 
+                    mang trong mình lòng đam mê và khát vọng xây dựng một thương hiệu trà sữa thuần Việt, mang đậm hương vị quê hương.
+                    ToCoToCo tin rằng thưởng thức một ly trà sữa được pha chế từ trà Mộc Châu, 
+                    trân châu từ sắn dây Nghệ An hay mứt dâu tằm từ Đà Lạt sẽ là những trải nghiệm hoàn toàn khác biệt và tuyệt vời nhất cho những khách hàng của mình. 
+                    </div>
+                    <div class="btn"><a class="link" href="">Xem Chi Tiết</a></div>
+                </div>
+                
+            </div>
+            <div class="content-2">
+                <div class="info">
+                    <div class="info-title">Thành Tựu</div>
+                    <div class="logo-ngang">
+                        <img src="../images/Logo-ngang-02.png" alt="">
+                    </div>
+                    <div class="info-text">
+                     Cũng chính từ sự khác biệt đó, thương hiệu ToCoToCo đã có những bước phát triển thần tốc
+                     và dần chiếm lĩnh thị trường trà sữa với hơn 200 cửa hàng trải dài trên toàn quốc. 
+                     Cột mốc năm 2018 đánh dấu ước mơ vươn xa biển lớn của thương hiệu khi 
+                     ToCoToCo chính thức đặt chân lên nước Mỹ và tiếp nối thành công tại Úc, Nhật Bản, Hàn Quốc, Singapore,…. 
+                    </div>
+                    <div class="btn"><a class="link" href="">Xem Chi Tiết</a></div>
+                </div>
+                <div class="img-2"></div>
+            </div>
+            <div class="content-3">
+                <div class="img-3"></div>
+                <div class="info">
+                    <div class="info-title">Sứ Mệnh</div>
+                    <div class="logo-ngang">
+                        <img src="../images/Logo-ngang-02.png" alt="">
+                    </div>
+                    <div class="info-text">
+                    Luôn tâm huyết với việc khai thác nguồn nông sản Việt Nam để tạo ra những ly thức uống tươi ngon, 
+                    an toàn và giàu giá trị dinh dưỡng, ToCoToCo mở cửa hàng đầu tiên vào năm 2013, 
+                    mang trong mình lòng đam mê và khát vọng xây dựng một thương hiệu trà sữa thuần Việt, mang đậm hương vị quê hương.
+                    ToCoToCo tin rằng thưởng thức một ly trà sữa được pha chế từ trà Mộc Châu, 
+                    trân châu từ sắn dây Nghệ An hay mứt dâu tằm từ Đà Lạt sẽ là những trải nghiệm hoàn toàn khác biệt và tuyệt vời nhất cho những khách hàng của mình. 
+                    </div>
+                    <div class="btn"><a class="link" href="">Xem Chi Tiết</a></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-cover">
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <img class="logo-left" src="../images/logo-.png"  alt="logo">
+                    </div>
+                    <div class="footer-1">
+                        <div class="footer-title">CÔNG TY CP TM & DV TACO VIỆT NAM</div>
+                        <div class="footer-line">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        Tầng 2 tòa nhà T10, Times City Vĩnh Tuy, Hai Bà Trưng, Hà Nội.
+                        </div>
+                        <div class="footer-line">
+                            <i class="fa-solid fa-phone"></i>
+                            1900.63.69.36
+                        </div>
+                        <div class="footer-line">
+                            <i class="fa-solid fa-envelope"></i>
+                            info@tocotocotea.com
+                        </div>
+                        <div class="footer-line">
+                            Số ĐKKD: 0106341306. Ngày cấp: 16/03/2017.
+                        </div>
+                        <div class="footer-line">
+                            Nơi cấp: Sở kế hoạch và Đầu tư Thành phố Hà Nội.
+                        </div>
+                        <div class="footer-line">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-2">
+                        <div class="footer-title">VỀ CHÚNG TÔI</div>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a id="it" href="">Giới thiệu về ToCoToCo</a></li>
+                            <li class="footer-item"><a id="it" href="">Nhượng quyền</a></li>
+                            <li class="footer-item"><a id="it" href="">Tin tức khuyến mãi</a></li>
+                            <li class="footer-item"><a id="it" href="">Cửa hàng</a></li>
+                            <li class="footer-item"><a id="it" href="">Quy định chung</a></li>
+                            <li class="footer-item"><a id="it" href="">TT Liên hệ & ĐKKD</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-3">
+                        <div class="footer-title">CHÍNH SÁCH</div>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a id="it" href="">Chính sách nhân viên</a></li>
+                            <li class="footer-item"><a id="it" href="">Hình thức thanh toán</a></li>
+                            <li class="footer-item"><a id="it" href="">Vận chuyển & giao nhận</a></li>
+                            <li class="footer-item"><a id="it" href="">Đổi trả & hoàn tiền</a></li>
+                            <li class="footer-item"><a id="it" href="">Bảo về thông tin cá nhân</a></li>
+                            <li class="footer-item"><a id="it" href="">Bảo trì & bảo hành</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-left">ToCoToCo - Thương hiệu trà sữa tiên phong sử dụng nguồn nông sản Việt Nam</div>
+                    <div class="footer-right">Copyrights © 2019 by ToCoToCoTea. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
